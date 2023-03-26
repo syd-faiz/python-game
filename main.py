@@ -52,6 +52,7 @@ class Game:
             
                   elif event.type==pygame.QUIT:
                      running=False
+           
 
 if __name__=="__main__":
     game=Game()
