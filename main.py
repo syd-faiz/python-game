@@ -2,11 +2,11 @@ import pygame
 from pygame.locals import *
 import time
 class Snake:
-     def __init__(self,parent_screen):
+     def __init__(self,parent_screen,length):
         self.parent_screen= parent_screen
         self.block=pygame.image.load("resourses/block.png").convert()
-        self.x=100
-        self.y=100 
+        self.x=[]*length
+        self.y=[]*length
         self.direction ='down'
 
      def draw(self):
