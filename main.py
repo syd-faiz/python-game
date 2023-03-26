@@ -33,6 +33,7 @@ class Game:
           self.snake.draw()
 
      def run(self):
+          
           running=True
           while running:
               for event in pygame.event.get():
