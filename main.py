@@ -124,7 +124,7 @@ class Game:
 
 
      def run(self):
-<<<<<<< HEAD
+
           
           running=True
           while running:
@@ -140,7 +140,7 @@ class Game:
                          self.snake.move_left()
                      if event.key==K_RIGHT:
                          self.snake.move_right()
-=======
+
         running = True
         pause = False
 
@@ -178,8 +178,7 @@ class Game:
                 pause = True
                 self.reset()
 
-            time.sleep(.25)
->>>>>>> f270cdc (saving)
+            time.sleep(.30)
 
 
 if __name__=="__main__":
